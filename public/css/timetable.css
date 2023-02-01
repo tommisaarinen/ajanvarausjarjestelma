@@ -1,0 +1,88 @@
+#timetableheader {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#timetableheader h2 {
+    text-align: center;
+}
+
+.daterow {
+    height: 50px;
+}
+
+.daterow h4 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.timeslotlist {
+    height: 30vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0px;
+    border: 1px solid #dedede;
+}
+
+.timetablerow {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #dedede;
+}
+
+.timetablebutton {
+    text-align: center;
+    font-weight: bold;
+    background-color: #2161cf;
+    border: 1px solid #2161cf;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    transition: ease-in 0.1s;
+}
+
+.timetablebutton:hover {
+    background-color: white;
+    color: #2161cf;
+    border: 1px solid #2161cf;
+}
+
+.buttoncol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timecol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timetable-error {
+    text-align: center;
+    font-size: 19px;
+}
+
+.errorcontain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.controlsrow {
+    padding-top: 10px;
+}
+
+.controlsrow .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
