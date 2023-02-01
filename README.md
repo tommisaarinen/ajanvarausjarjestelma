@@ -3,6 +3,36 @@
 - Uuden varausjärjestelmän koodit
 
 
+
+# ASENNUS #
+
+1. Asenna Docker ja Node, jahka ei vielä asennettuna
+2. Siirry terminaalissa cd:llä tämän projektikansion juureen, aja seuraavat komennot:
+    composer require laravel/sail --dev
+    php artisan sail:install
+3. Valitse asennuksessa tietokantaan MySQL, sen jälkeen palvelin pystyyn
+    ./vendor/bin/sail up
+   Samalla Sail laittaa myslin ja MariaDB:n pystyyn ja luo Docker-containerin.
+4. Avaa uusi välilehti/terminaali-instanssi ja aja migraatiot seuraavalla komennolla: (tämä luo tietokantaan tarvittavat taulut)
+    sail artisan migrate
+   Jos tuo ei toimi, kokeile koko polulla (./vendor/bin/sail artisan migrate)
+5. Avaa tinker:
+    php artisan tinker
+   Luo dummydataa factoryillä seuraavassa järjestyksessä: Admin, Service, Location, Customer, Reservation
+    Luokka::factory()->count(lukumäärä)->make();
+6. Selaimella localhostiin ja tökkimään.
+
+NOTE:   Käyttöliittymä on vain MacBookin näytölle kohtalaisen nätisti skaalautuvaksi "silmät kiinni ja sinne päin" -
+        mentaliteetillä hutaistu dummyliittymä. Alunperinkään suunnitelmana ei ollut tehdä produktiovalmista UI:ta.
+        Koska aikaa oli rajallisesti eikä UI ollut prioriteetti, siinä on leikattu mutkia urakalla suoraksi, eikä esimerkiksi
+        responsiivisuutta ja mobiilileiskaa mietitty lainkaan. Tämä ei siis edusta hirveämmin fronttipuolen osaamistani.
+
+        - Tommi
+
+
+
+# INFOA JA CHANGELOG #
+
 Tämänhetkinen versio: 0.1b
 
 Oletusarvoinen admin-käyttäjä (factoryllä luotuna):
