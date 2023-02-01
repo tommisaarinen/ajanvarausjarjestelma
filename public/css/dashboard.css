@@ -1,0 +1,68 @@
+.logoutbutton {
+    background-color: #f7a705;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #f7a705;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: ease-in 0.1s;
+ }
+ 
+ .logoutbutton:hover {
+     background-color: white;
+     color: #f7a705;
+ }
+
+ .logoutbutton svg {
+    margin-left: 2px;
+ }
+ 
+ .dashboard-toprow {
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ 
+ .dashboardheader {
+     display: inline;
+ }
+ 
+ .dashboard-toprow-wrap {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 30px;
+ }
+ 
+ .tablewrap table {
+     width: 100%;
+ }
+
+ .tablewrap {
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 12vh;
+ }
+
+ .cancelbutton {
+    background-color: #ed5959;
+    border-color: #ed5959;
+    border: 2px solid;
+    font-size: 12px;
+    font-weight: bold;
+ }
+
+ .cancelbutton:hover {
+    color: #ed5959;
+    background-color: white;
+    border-color: #ed5959;
+ }
+
+ .cancelbutton:focus {
+    color: #ed5959;
+    background-color: white;
+    border-color: #ed5959;
+ }

@@ -1,0 +1,248 @@
+.admin-nav {
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+
+.admin-nav .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link {
+    border-color: white;
+}
+
+.active a {
+    color: #000000b3;
+    border-bottom: 2px solid #7cd0e1;
+}
+
+.approw {
+    justify-content: center;
+}
+
+.appwrap {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    box-shadow: 0px 13px 14px -14px rgba(0,0,0,0.04) inset;
+    height: 40vh;
+}
+
+h1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 20px;
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.tablecontain {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: scroll;
+    max-height: 280px;
+}
+
+table {
+    width: 100%;
+}
+
+.filterlabel {
+    padding-left: 3px;
+    padding-bottom: 5px;
+}
+
+.searchrow {
+    padding-bottom: 20px;
+}
+
+#locationcol {
+    width: 180px;
+}
+
+#servicecol {
+    width: 150px;
+}
+
+#namecol {
+    width: 180px;
+}
+
+#datecol {
+    width: 80px;
+}
+
+#timecol {
+    width: 150px;
+}
+
+.addbutton {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #2161cf;
+    border: 2px solid #2161cf;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: ease-in 0.1s;
+    width: 40%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.addbutton:hover {
+    color: #2161cf;
+    background-color: white;
+}
+
+.adminpanel-centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.adminpanel-centered h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.adminctrl {
+    border-radius: 4px;
+    margin: 3px;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.delete {
+    background-color: #ed5959;
+    border-color: #ed5959;
+}
+
+.delete:hover {
+    color: #ed5959;
+    background-color: white;
+    border-color: #ed5959;
+}
+
+.delete:focus {
+    background-color: #ed5959;
+    border-color: #ed5959;
+    color: white;
+}
+
+.edit {
+    background-color: #2161cf;
+    border-color: #2161cf;
+}
+
+.edit:hover {
+    color: #2161cf;
+    background-color: white;
+}
+
+.addbutton svg {
+    margin-right: 5px;
+}
+
+.inputcolumn {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.dividedrow .inputcolumn:first-of-type {
+    padding-left: 0px;
+}
+
+.dividedrow {
+    justify-content: space-between;
+}
+
+.formwrap {
+    max-height: 50vh;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.formdivide {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.form-subtext {
+    color: grey;
+}
+
+.businesshrs-contain {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.businesshrs-header {
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+#submitrow {
+    margin-top: 40px;
+}
+
+.checkbox {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.checkboxcontain {
+    display: flex;
+    align-items: center;
+}
+
+#checkboxcol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkboxcontain-service {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 35px;
+    justify-content: center;
+}
+
+.divide-left {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.dateinputrow {
+    padding: 5px;
+}
+
+.exceptiondate-wrap {
+    margin-bottom: 15px;
+}
+
+#cancellable-timeframe-input {
+    width: 96%;
+}
+
+#timeframecontain {
+    margin-top: 20px;
+    display: none;
+}
